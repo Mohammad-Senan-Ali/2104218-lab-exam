@@ -1,0 +1,318 @@
+    1  ls
+    2  ls -a
+    3  cd ..
+    4  ls
+    5  cd ..
+    6  ls
+    7  cd ug21
+    8  ls
+    9  cd 2104218
+   10  ls
+   11  git --version
+   12  clear
+   13  ls
+   14  cd ..
+   15  ls
+   16  cd ..
+   17  ls
+   18  cd phd20/
+   19  ls
+   20  cd ..
+   21  ls
+   22  cd fac
+   23  ls
+   24  cd ~
+   25  ls
+   26  git --version
+   27  cd ../ug22
+   28  cd ..
+   29  ls
+   30  cd ..
+   31  ls
+   32  cd ug22
+   33  ;s
+   34  ls
+   35  cd 2203127/
+   36  ls
+   37  cd ..
+   38  ls
+   39  cd fac
+   40  ;s
+   41  ls
+   42  cd clint
+   43  ls
+   44  cd ..
+   45  ls
+   46  cd ..
+   47  ls
+   48  exit
+   49  ls
+   50  cd ..
+   51  ls
+   52  cd ..
+   53  ls
+   54  cd ug21
+   55  cd 2104218/
+   56  git --version
+   57  git config --global user.name
+   58  git config --global user.name "Mohammad Senan Ali"
+   59  git config --global user.name
+   60  git config --global user.email mohammad.ali.21042@iitgoa.ac.in
+   61  git config --global user.email
+   62  ls -la ~/.ssh | grep 'id_rsa'
+   63  ssh-keygen -t RSA
+   64  ls
+   65  ls -a
+   66  cd .ssh
+   67  ls
+   68  cat id_rsa.pub
+   69  cd ..
+   70  ls
+   71  git clone https://github.com/Mohammad-Senan-Ali/cs102-git-essentials
+   72  ls
+   73  cd cs102-git-essentials/
+   74  ls
+   75  cd ..
+   76  git clone https://github.com/Mohammad-Senan-Ali/Mohammad-Senan-Ali.github.io
+   77  ls
+   78  rm cs102-git-essentials/
+   79  rm -r cs102-git-essentials/
+   80  l
+   81  ls
+   82  rm -R cs102-git-essentials/
+   83  ls
+   84  cd Mohammad-Senan-Ali.github.io/
+   85  ls
+   86  vim README.md
+   87  git status
+   88  git log
+   89  git status
+   90  ls
+   91  vim README.md 
+   92  git status
+   93  git diff
+   94  git commit -m "Minor changes"
+   95  git add -A
+   96  git commit -m "Minor changes"
+   97  git push origin main
+   98  sudo apt-get update
+   99  git push origin main
+  100  cd ..
+  101  lx
+  102  ls
+  103  ls -l
+  104  git status
+  105  cd Moha
+  106  cd Mohammad-Senan-Ali.github.io/
+  107  git status
+  108  origin
+  109  git origin
+  110  git config --get remote.origin.url
+  111  git push origin main
+  112  ls
+  113  touch sample.txt
+  114  git status
+  115  git add .
+  116  git status
+  117  git commit -m "Verifying pull and push operation"
+  118  git push origin main
+  119  git config credential.helper store
+  120  git push origin main
+  121  cd ..
+  122  ls
+  123  rm -R Mohammad-Senan-Ali.github.io/
+  124  ls
+  125  git clone git@github.com:Mohammad-Senan-Ali/Test.git
+  126  ls
+  127  cd Test/
+  128  git status
+  129  ls
+  130  vim README.md 
+  131  git status
+  132  git add -A
+  133  git commit -m "Updated README file"
+  134  git push origin main
+  135  cd ..
+  136  mkdir MyRepo
+  137  cd MyRepo/
+  138  git init
+  139  touch README.md
+  140  git status
+  141  git add -A
+  142  git commit -m "Initial Commit"
+  143  git status
+  144  git branch main
+  145  ls
+  146  git checkout
+  147  git branch
+  148  git reset --hard
+  149  git status
+  150  git branch -m master main
+  151  cd ..
+  152  rm -R MyRepo/
+  153  y
+  154  ls
+  155  mkdir sample
+  156  cd Sample
+  157  cd sample
+  158  git init
+  159  git status
+  160  git branch -M main
+  161  touch text.txt
+  162  git add -A
+  163  git status
+  164  git commit -m "Initial Commit"
+  165  git branch -M main
+  166  git push origin main
+  167  git remote add origin git@github.com:Mohammad-Senan-Ali/Sample
+  168  git push -u origin main
+  169  clear
+  170  cd ..
+  171  cd 2104218/
+  172  ls
+  173  mkdir myRepo
+  174  cd myRepo/
+  175  git init
+  176  touch README.md
+  177  vim README.md 
+  178  git status
+  179  git add -A
+  180  git commit -m "Initial Commit"
+  181  git checkout
+  182  git branch -M main
+  183  git remote add origin git@github.com:Mohammad-Senan-Ali/testing_markdown.git
+  184  git status
+  185  git branch -M anything
+  186  git status
+  187  git branch -M main
+  188  git push origin main
+  189  git status
+  190  ls
+  191  vim --version
+  192  git config --global
+  193  git config --global user.name
+  194  git config --global user.email
+  195  git config --global --edit
+  196  vim 
+  197  ls -a
+  198  git status
+  199  touch index.html
+  200  git status
+  201  git log
+  202  git commit -m "Index.html added"
+  203  git add .
+  204  git commit -m "Index.html added"
+  205  git push origin main
+  206  git log --oneline --decorate --graph --all
+  207  git log --oneline --decorate --graph 
+  208  git log --oneline --decorate  
+  209  git log --oneline 
+  210  git log --decorate --graph --all
+  211  car .gitconfig
+  212  ls
+  213  ls
+  214  cd ..
+  215  ls
+  216  cd  2104221/
+  217  ls
+  218  cd cs102-git-essentials/
+  219  ls
+  220  vim helloworld.sh 
+  221  mkdir webPage
+  222  cd webPage/
+  223  git init
+  224  git status
+  225  git branch -M main
+  226  git add README.md
+  227  touch README.md
+  228  cat >> README.md 
+  229  cat  README.md 
+  230  vim README.md
+  231  git status
+  232  git add -A
+  233  git commit -m "Initial commit"
+  234  git remote add origin git@github.com:Mohammad-Senan-Ali/Mohammad-Senan-Ali.github.io.git
+  235  git push origin main
+  236  git push -u origin main
+  237  git branch -M main
+  238  git push -u origin main
+  239  vim README.md
+  240  git commit -m "Corrected issues in README file"
+  241  git add -A
+  242  git commit -m "Corrected issues in README file"
+  243  git push origin main
+  244  vim README.md
+  245  git add -A
+  246  git commit -m "Corrected issues in README file"
+  247  git push origin main
+  248  exit
+  249  ls
+  250  touch sample.md
+  251  cat >> sample.md 
+  252  cat  sample.md 
+  253  ls
+  254  who
+  255  clear
+  256  ls
+  257  cd 2104218-lab-exam/
+  258  ls
+  259  vim 2104218_data_filter.sh 
+  260  bash 2104218_data_filter.sh abcd 12 12
+  261  vim 2104218_data_filter.sh 
+  262  bash 2104218_data_filter.sh abcd 12 12
+  263  vim 2104218_data_filter.sh 
+  264  bash 2104218_data_filter.sh abcd 12 12
+  265  bash 2104218_data_filter.sh abcd 12 ab
+  266  bash 2104218_data_filter.sh abcd sd ab
+  267  vim 2104218_data_filter.sh 
+  268  bash 2104218_data_filter.sh abcd sd ab
+  269  vim 2104218_data_filter.sh 
+  270  bash 2104218_data_filter.sh abcd sd ab
+  271  vim 2104218_data_filter.sh 
+  272  bash 2104218_data_filter.sh abcd sd ab
+  273  vim 2104218_data_filter.sh 
+  274  bash 2104218_data_filter.sh abcd sd ab
+  275  vim 2104218_data_filter.sh 
+  276  bash 2104218_data_filter.sh abcd sd ab
+  277  bash 2104218_data_filter.sh ca_500.csv sd ab
+  278  vim 2104218_data_filter.sh 
+  279  bash 2104218_data_filter.sh ca_500.csv sd ab
+  280  vim 2104218_data_filter.sh 
+  281  bash 2104218_data_filter.sh ca_500.csv city miami
+  282  bash 2104218_data_filter.sh us_500.csv city miami
+  283  ls
+  284  rm us_city_miami.csv ca_city_miami.csv 
+  285  ls
+  286  rm ca_sd_ab.csv 
+  287  rm ab_sd_ab.csv 
+  288  ls
+  289  vim 2104218_data_filter.sh 
+  290  bash 2104218_data_filter.sh us_500.csv city Miami
+  291  ls
+  292  git status
+  293  mkdir data
+  294  mkdir code
+  295  mv *csv code
+  296  ls
+  297  cd code/
+  298  ls
+  299  mv * ..
+  300  ls
+  301  cd ..
+  302  ls
+  303  mv *.sh code
+  304  mv *.csv data
+  305  ls
+  306  cd data/
+  307  ls
+  308  cd ..
+  309  cd code/
+  310  ls
+  311  cat 2104218_data_filter.sh 
+  312  cd ..
+  313  ls
+  314  git status
+  315  git add -A
+  316  git status
+  317  history
+  318  history >> 2104218_history.txt
